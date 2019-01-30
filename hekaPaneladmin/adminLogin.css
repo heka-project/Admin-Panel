@@ -1,0 +1,45 @@
+﻿html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+
+h1 span {
+    filter: brightness(0) invert(1);
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-style: italic;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px; /*vertical horizontal*/
+}
+
+.rdoBtnStyle input[type="radio"] {
+    margin-left: 20px;
+}
+body {
+}

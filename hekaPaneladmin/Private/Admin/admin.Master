@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="hekaPaneladmin.Private.Admin.admin" %>
+<%@ Register Src="~/Private/Admin/adminNav.ascx" TagPrefix="uc1" TagName="adminNav" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ">
+    <title></title>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <script src="../../Scripts/umd/popper.min.js"></script>
+
+    <style>
+        body, html {
+            height: 100%;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0px;
+            background-color:lightblue;
+            
+        }
+
+        .jumbotron {
+            height: auto;
+
+        }
+
+        form {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <uc1:adminNav runat="server" id="adminNav"/> 
+        
+            <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+              </div>
+    </form>
+</body>
+</html>

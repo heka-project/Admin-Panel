@@ -1,0 +1,58 @@
+﻿.sideBar {
+    width: 325px;
+    height: 100%;
+    float: left;
+    margin-left: -350px;
+    transition: 0.8s all;
+    padding-right: 10px;
+}
+
+.side {
+    margin: 0px;
+}
+
+.sideBar ul {
+    border-right: 1px solid purple;
+    height: 100%;
+}
+
+.topSection {
+    background-color: #1C0C4E;
+    padding: 10% 8%;
+}
+
+    .topSection h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+.nav-item {
+    list-style: none;
+}
+
+.btn {
+    padding: 0 10px;
+    font-size: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+}
+
+    .btn::before {
+        content: "\f0c9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+    }
+
+.btnc::before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.active {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    font-weight: bold;
+}
